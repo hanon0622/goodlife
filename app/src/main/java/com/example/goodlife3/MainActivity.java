@@ -56,10 +56,8 @@ public class MainActivity extends AppCompatActivity {
                 new int[] {R.id.name, R.id.detail, R.id.image}
         ));
             setContentView(R.layout.activity_main);
-
             // ボタンを設定
             Button button = findViewById(R.id.button);
-
             // TextView の設定
             count_view = findViewById(R.id.count_text);
 
@@ -74,9 +72,5 @@ public class MainActivity extends AppCompatActivity {
                     count_view.setText(String.valueOf(mCount));
                 }
             });
-
-        }
-
-
     }
 }
